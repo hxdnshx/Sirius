@@ -2786,7 +2786,7 @@ table.alt tfoot {
     overflow-y: auto;
     width: 23em;
     height: 100%;
-    background: #5BC0EB;
+    background: #FBAEFC;
     color: #d1f1e9;
     text-align: center;
     -moz-flex-direction: column;
@@ -2840,7 +2840,7 @@ table.alt tfoot {
 
 #header>header p {
     margin: 1em 0 0 0;
-    color: #d1f1e9;
+    color: #572863;
     font-style: italic;
 }
 

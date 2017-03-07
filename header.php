@@ -21,7 +21,7 @@
         <header>
             <span class="image avatar"><a href="<?php echo get_option('home'); ?>/wp-admin/"><img src="<?php echo sirius_option('site_logo'); ?>" /></a></span>
             <h1 id="logo"><a href="<?php echo get_option('home'); ?>"><?php echo sirius_option('background_text1'); ?></a></h1>
-            <p><?php echo sirius_option('background_text2'); ?></p>
+            <p><?php echo sirius_option('background_text2') . ' - ' . apply_filters('rand_lyric'); ?></p>
         </header>
             <?php $defaults = array('theme_location' => 'header_menu', 'container' => 'nav', 'container_id' => 'nav' ); ?>
             <?php wp_nav_menu($defaults); ?>
